@@ -19,3 +19,4 @@ All notable updates to the High Command AI workspace are documented here. Entrie
 
 - **ARC-001 (archivist_ai_0)** — Stood up Standards/Runbook indexes and evidence hooks; added heartbeat/sync wrappers; docs linked in README.
 - **ARC-002 (archivist_ai_0)** — Added Doc Map and local docs check (`tools/check_docs.ps1`) writing `logs/docs_check.json`; cross-links verified.
+ - **ARC-004 (archivist_ai_0)** — Added pre-sync validator (`tools/validate_staged_json.ps1`) and smoke checks; updated README to include validation step.
