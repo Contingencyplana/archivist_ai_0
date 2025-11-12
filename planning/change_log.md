@@ -14,3 +14,8 @@ All notable updates to the High Command AI workspace are documented here. Entrie
 ## 2025-11-08
 
 - **Order 044 Comfort/Automation Vocabulary** — Refreshed `planning/glossary.md` with Comfort Path, Automation Path, Inbox Backlog, and Daily Doc Refresh definitions plus telemetry tooling references; aligns with ledger entry `2025-11-08 21:55` and promotes Toyfoundry/Toysoldiers evidence.
+
+## 2025-11-13
+
+- **ARC-001 (archivist_ai_0)** — Stood up Standards/Runbook indexes and evidence hooks; added heartbeat/sync wrappers; docs linked in README.
+- **ARC-002 (archivist_ai_0)** — Added Doc Map and local docs check (`tools/check_docs.ps1`) writing `logs/docs_check.json`; cross-links verified.
