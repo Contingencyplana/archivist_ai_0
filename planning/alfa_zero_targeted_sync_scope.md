@@ -76,7 +76,7 @@ The scripted `python scripts/play_session.py` loop now drives dispatch, contract
 - Nightlands cohort (Vega, Lumen, Rook) executed the duet storyboard and confirmed the targeted sync helper’s quiet output during a live comfort-loop session.
 - Operators appreciated the dry-run preview but requested a UI banner surfacing remaining cooldown time after each run.
 - Metrics excerpt was easy to retrieve; cohort asked for a dashboard panel that graphs targeted sync cadence alongside storyboard runs.
-- Follow-up actions are logged in `planning/document_refresh_queue.md` and the November ledger for tracking.
+- Follow-up actions are logged in `planning/commonwealth_loop/doc_refresh_queue.md` and the November ledger for tracking.
 
 ## Next Actions
 

@@ -88,7 +88,7 @@ The **Five Major Pivots** represent a fundamental shift in how we build **Nightl
 
 - 🔄 **Alfa Zero prototype** — Spec drafted (`docs/alfa_zero_spec.md`); static grid renderer build underway.
 - 🔄 **Emoji runtime adapter** — Level-0 grammar flowing through `golf_00/delta_00/alfa_04/`; continue round-trip validation with Toyfoundry/Toysoldiers payloads.
-- 🔄 **Doc refresh queue** — Rolling updates tracked in `planning/doc_refresh_queue.md` keep canon aligned with offline continuity operations.
+- 🔄 **Doc refresh queue** — Rolling updates tracked in `planning/commonwealth_loop/doc_refresh_queue.md` keep canon aligned with offline continuity operations.
 - 🔄 **Offline continuity cadence** — Heartbeat → sync → bridge pull logged in `exchange/ledger/2025-11.md` after each exchange touchpoint.
 
 ### Upcoming

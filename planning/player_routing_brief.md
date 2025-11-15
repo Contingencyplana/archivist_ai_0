@@ -42,7 +42,7 @@ Player routing now rides on the shared exchange mesh (`C:/Users/Admin/high_comma
 3. **Ledger record:** Log every routing adjustment or doctrine tweak in `high_command_exchange/ledger/2025-11.md` so downstream teams can reconcile shifts.
 4. **Sync broadcast:** After edits or new assignments, execute `python tools/offline_sync_exchange.py` to push updated briefs, deployment logs, and supporting artifacts across the bus.
 5. **Bridge ingest:** High Command completes the loop with `python tools/offline_bridge.py pull --move` so the hub ledger and inboxes capture the latest routing guidance.
-6. **Guardian check:** Before sharing outbound prompts, run them through the Guardian filter to confirm tone and consent alignment, then file the approved copy back into the exchange `orders/` directory and note the refresh in `planning/doc_refresh_queue.md`.
+6. **Guardian check:** Before sharing outbound prompts, run them through the Guardian filter to confirm tone and consent alignment, then file the approved copy back into the exchange `orders/` directory and note the refresh in `planning/commonwealth_loop/doc_refresh_queue.md`.
 
 ## 6. Automation Hooks
 

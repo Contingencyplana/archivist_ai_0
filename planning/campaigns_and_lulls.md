@@ -33,7 +33,7 @@ Evidence: <key files/paths>
 - Orders queue: recent slice closed (045/047/048/049/050/051); queue clear for planning lull.
 - Inbox: cleared 2025-11-09; backlog archived to `exchange/reports/archived/inbox_backlog/`; Order 035 monitor result published (promote recommendation); Order 2025-10-20-001 report promoted to `exchange/reports/archived/`.
 - Recent completions: 040/041/043/045/047/048/049/050/051 closed; reports and acks archived (see `exchange/ledger/index.json`).
-- Document refresh cadence: second-pass daily slices running from `planning/document_refresh_queue.md`; log updates to `exchange/ledger/2025-11.md` each block.
+- Document refresh cadence: second-pass daily slices running from `planning/commonwealth_loop/doc_refresh_queue.md`; log updates to `exchange/ledger/2025-11.md` each block.
 - Nightlands playtest: 2025-11-12 cohort (Vega, Lumen, Rook) ran the duet comfort loop; feedback archived in `logs/alfa_zero/play_session_feedback/` with follow-up work queued.
 
 ### Lull — UI Overlay Slice
@@ -125,13 +125,13 @@ Outcomes:
 Evidence:
 - logs/alfa_zero/play_session_feedback/order-2025-11-12-049_session_20251112T143000Z.jsonl
 - exchange/ledger/2025-11.md (14:20 / 14:44 / 14:55 entries)
-- planning/document_refresh_queue.md (2025-11-12 additions)
+- planning/commonwealth_loop/doc_refresh_queue.md (2025-11-12 additions)
 - exchange/reports/archived/order-2025-11-12-047-report.json, order-2025-11-12-048-report.json
 ```
 
 ## Next
 
-- Daily Doc Refresh: ✅ 2025-11-12 slice updated `docs/nightlands_duet_telemetry_panel.md` and linked artifacts across the Nightlands docs; queue rolled forward in `planning/document_refresh_queue.md` with ledger log.
+- Daily Doc Refresh: ✅ 2025-11-12 slice updated `docs/nightlands_duet_telemetry_panel.md` and linked artifacts across the Nightlands docs; queue rolled forward in `planning/commonwealth_loop/doc_refresh_queue.md` with ledger log.
 - Nightlands scoreboard placeholder imagery embedded in `exchange/attachments/guides/nightlands_duet_playtest_packet.md`; future cohorts can reference metadata under `exchange/attachments/media/nightlands_duet/` while awaiting high-fidelity captures (Order 050 closed).
 - Nightlands duet telemetry feed published under `exchange/attachments/telemetry/nightlands_duet/`; integrate the feed into the shared dashboard next and keep `planning/alfa_zero_nightlands_duet_storyboard.md` aligned.
 - Evaluate targeted sync log rotation once additional playtests accumulate; record outcomes in `planning/alfa_zero_targeted_sync_scope.md`.

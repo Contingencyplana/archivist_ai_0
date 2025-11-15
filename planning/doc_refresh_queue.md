@@ -22,6 +22,7 @@
 
 ## Notes
 
+- 2025-11-14 - Ledger entry logged in `exchange/ledger/2025-11.md` noting the shared queue now lives at `planning/commonwealth_loop/doc_refresh_queue.md`; future refresh evidence should log there.
 - Treat the list as rolling; append new targets when pivots open.
 - Use smaller pull requests per work block to keep review pace manageable.
 - Coordinate with Toyfoundry/Toysoldiers when documentation impacts their operational runbooks.

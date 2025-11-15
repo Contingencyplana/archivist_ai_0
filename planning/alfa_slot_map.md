@@ -32,7 +32,7 @@
 ## Coordination Notes
 
 - **Offline cadence:** Every workspace continues the `exchange_heartbeat.py` → `offline_sync_exchange.py` → `offline_bridge.py pull --move` loop; log each touchpoint in `exchange/ledger/2025-11.md`.
-- **Doc refresh queue:** Use `planning/doc_refresh_queue.md` to record ownership changes or new slot assignments.
+- **Doc refresh queue:** Use `planning/commonwealth_loop/doc_refresh_queue.md` to record ownership changes or new slot assignments.
 - **Escalation:** When a reserved slot activates, append a line to the November ledger and push an acknowledgement through `exchange/acknowledgements/outbox/` so satellites learn the new alignment.
 
 ## Next Updates
