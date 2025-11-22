@@ -20,8 +20,10 @@ Genesis workspace scaffold.
  - Run all checks: `./tools/run_all_checks.ps1`
 
 ## Python commands
+- Cadence: `python tools/end_of_block.py` (heartbeat -> offline_sync_exchange -> ops_readiness -> exchange_all)
 - Readiness: `python -m tools.ops_readiness`
 - Exchange (validate + sync): `python tools/exchange_all.py`
+- Emitter smoke: `python tools/factory_order_emitter.py --help` (replaces any exchange_all smoke caveat)
 
 Tests (smoke): `./tests/smoke_checks.ps1` (writes `logs/tests_smoke.json`)
 
